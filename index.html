@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="form-wrapper">
+        <h1 class="header">
+            Registration Form
+        </h1>
+        <p class="header-description">
+            Fill out this form to log in
+        </p>
+        <form>
+            <!-- Contact details -->
+            <fieldset class="first-section">
+                <legend>Contact details</legend>
+                <div class="input-stroke-wrapper">
+                    <img class="image-icons" src="./imgs/image2.png" alt="">
+                    <label for="name">name</label>
+                    <input class="inputs-boxes" type="text" name="name" id="name" placeholder="Your Name" autofocus required>
+                </div>
+                <div class="input-stroke-wrapper">
+                    <img class="image-icons" src="./imgs/image6.png" alt="">
+                    <label for="email">email</label>
+                    <input class="inputs-boxes" type="email" name="email" id="email" placeholder="rizasioma@gmail.com" required>
+                </div>
+                <div class="input-stroke-wrapper">
+                    <img class="image-icons" src="./imgs/image4.png" alt="">
+                    <label for="phone">phone</label>
+                    <input class="inputs-boxes" type="tel" name="phone" id="phone" placeholder="+4217648839" required>
+                </div>
+            </fieldset>
+            <!-- Personal information -->
+            <fieldset class="second-section">
+                <legend>Personal information</legend>
+                <div class="input-stroke-wrapper">
+                    <img class="image-icons" src="./imgs/image5.png" alt="">
+                    <label for="Date">birth date</label>
+                    <input class="inputs-boxes" type="date" name="date" id="date" required>
+                </div>
+                <div class="input-stroke-wrapper">
+                    <!-- <label for="gender">gender</label>
+                    <input list="genders" name="gender" id="gender">
+                    <datalist id="genders">
+                        <option value="male">
+                        <option value="female">
+                    </datalist> -->
+                    <img class="image-icons" src="imgs/image7.png" alt="">
+                    <label for="gender">gender</label>
+                    <select class="inputs-boxes" name="gender" id="gender">
+                        <option value="male">male</option>
+                        <option value="female">female</option>
+                    </select>
+                </div>
+                <div class="input-stroke-wrapper">
+                    <img class="image-icons" src="./imgs/image3.png" alt="">
+                    <label for="proficiency">proficiency</label>
+                    <input type="range" name="proficiency" id="proficiency" min="2" max="100" value="37">
+                </div>
+            </fieldset>
+            <!-- Agree w conditions-->
+            <div class="agree-wrapper">
+                <input type="checkbox" name="agree" id="agree" required>
+                <label for="agree">I have read and agree to the terms and conditions</label>
+            </div>
+            <button class="submit-button inputs-boxes">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>

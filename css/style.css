@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&family=Oswald:wght@500&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:wght@500;700;900&family=Roboto+Slab&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url('./../imgs/image1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #EEEEFB;
+    font-size: 20px;
+}
+
+.form-wrapper {
+    margin: 10vh auto;
+    height: 80vh;
+    width: 65vh;
+    background: linear-gradient(157.19deg, #2723E6 15.28%, rgba(126, 124, 200, 0) 99.38%);
+    border: 1px solid #3D3D3D;
+    box-shadow: inset 0px 4px 4px rgba(241, 243, 255, 0.25);
+    border-radius: 60px;
+    padding: 10px;
+    padding-top: 20px;
+}
+
+.form-wrapper > * {
+    margin: 20px;
+}
+
+fieldset {
+    margin-bottom: 10px;
+    border-radius: 20px;
+    border-color: #44427a;
+    border-width: 2px;
+    padding: 10px;
+    box-shadow: 2px 3px 4px rgba(128, 128, 128, 0.557);
+}
+
+div{
+    margin: 8px;
+}
+
+legend{
+    font-size: 24px;
+    font-style: italic;
+    text-decoration: azure;
+}
+
+label{
+    margin: 0 8px 0 5px;
+}
+
+input, button, select{
+    background-color: rgb(21, 32, 132);
+    border-radius: 8px;
+    border-width: 1px;
+    border-color: #44427a;
+    height: 2.2rem;
+    width: auto;
+    padding: 7px;
+    color: #EEEEFB;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+input, button:hover{
+    cursor: pointer;
+}
+
+select:hover{
+    background-color: rgb(39, 53, 175);
+    box-shadow: 2px 3px 4px rgba(128, 128, 128, 0.557);
+}
+
+.inputs-boxes:hover{
+    box-shadow: 2px 3px 4px rgba(128, 128, 128, 0.557);
+    background-color: rgb(39, 53, 175);
+}
+
+.agree-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.submit-button{
+    width: 50%;
+    text-align: center;
+    font-weight: 600;
+    height: 5%;
+}
+
+.submit-button:hover{
+    background-color: rgb(39, 53, 175);
+}
+
+.image-icons{
+    width: 40px;
+    height: 40px;
+    margin-top: 9px;
+}
+
+.input-stroke-wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+
+
+
